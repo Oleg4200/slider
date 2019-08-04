@@ -1,0 +1,108 @@
+<body>
+    <div class="box"> <img src="left-arrow.png" class="arrow_left">
+        <div class="radio">
+            <div class="content1"> <img src="Microsoft_New_Logo.png" class="microsoftLogo">
+                <h3 class="titleMicrosoft">Microsoft</h3>
+                <p class="aboutMicrosoft">Багатонаціональна корпорація комп'ютерних технологій зі 124 тис. працівниками в 102 країнах (2017р.) є найбільшою у світі компанією — виробником програмного забезпечення. Головний офіс розташований в корпоративному кампусі в Редмонді, штат Вашингтон.</p>
+            </div>
+            <div class="content2"> <img src="apple-logo.png" class="appleLogo">
+                <h3 class="titleApple">Apple</h3>
+                <p class="aboutApple">Apple Inc. (колишня Apple Computer, Inc.) — американська технологічна компанія з офісом у Купертіно (Каліфорнія), яка проектує та розробляє побутову електроніку, програмне забезпечення та онлайн-сервіси. Є першою американською компанією, чия капіталізація перевершила 1 трлн доларів США.</p>
+            </div>
+            <div class="content3"> <img src="search.png" class="googleLogo">
+                <h3 class="titleGoogle">Google</h3>
+                <p class="aboutGoogle">Aмериканська публічна транснаціональна корпорація, яку заснували 1998 року аспіранти Стенфордського університету Ларрі Пейдж і Сергій Брін. Найпопулярніший пошуковий сервіс станом на 2016 рік, має у власності, зокрема YouTube і Blogger. Штаб-квартира корпорації розташована в Кремнієвій долині, представництва компанії також є в Північній Америці, Європі та Азії.</p>
+            </div>
+            <input type="radio" name="radioBtn" class="radioButton">
+            <input type="radio" name="radioBtn" class="radioButton">
+            <input type="radio" name="radioBtn" class="radioButton"> </div> <img src="right-arrow.png" class="arrow_right"> </div>
+    <script src="script.js"></script>
+</body>
+
+
+<div class="box"> <img src="left-arrow.png" class="arrow_left">
+        <ul class="radio">
+            <li class="content1"> <img src="Microsoft_New_Logo.png" class="microsoftLogo">
+                <h3 class="titleMicrosoft">Microsoft</h3>
+                <p class="aboutMicrosoft">Багатонаціональна корпорація комп'ютерних технологій зі 124 тис. працівниками в 102 країнах (2017р.) є найбільшою у світі компанією — виробником програмного забезпечення. Головний офіс розташований в корпоративному кампусі в Редмонді, штат Вашингтон.</p>
+            </li>
+            <li class="content2"> <img src="apple-logo.png" class="appleLogo">
+                <h3 class="titleApple">Apple</h3>
+                <p class="aboutApple">Apple Inc. (колишня Apple Computer, Inc.) — американська технологічна компанія з офісом у Купертіно (Каліфорнія), яка проектує та розробляє побутову електроніку, програмне забезпечення та онлайн-сервіси. Є першою американською компанією, чия капіталізація перевершила 1 трлн доларів США.</p>
+            </li>
+            <li class="content3"> <img src="search.png" class="googleLogo">
+                <h3 class="titleGoogle">Google</h3>
+                <p class="aboutGoogle">Aмериканська публічна транснаціональна корпорація, яку заснували 1998 року аспіранти Стенфордського університету Ларрі Пейдж і Сергій Брін. Найпопулярніший пошуковий сервіс станом на 2016 рік, має у власності, зокрема YouTube і Blogger. Штаб-квартира корпорації розташована в Кремнієвій долині, представництва компанії також є в Північній Америці, Європі та Азії.</p>
+            </li>
+            <input type="radio" name="radioBtn" class="radioButton">
+            <input type="radio" name="radioBtn" class="radioButton">
+            <input type="radio" name="radioBtn" class="radioButton"> </ul> <img src="right-arrow.png" class="arrow_right"> </div>
+
+
+
+
+body{
+    background-color: #C4FCEF;
+}
+.box{
+    width:90%;
+    height: 70vh;
+    border: 1px solid grey;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrow_left{
+    width:40px;
+    height: 40px;
+}
+.arrow_right{
+    width:40px;
+    height: 40px;
+}
+.microsoftLogo{
+    width:40%;
+    height: 30vh;
+}
+.radio{
+    width:40%;
+    text-align: center;
+}
+.content1{
+    display: none;
+    list-style: none;
+}
+.titleMicrosoft{
+    text-align: center;
+}
+.aboutMicrosoft{
+    text-align: center;
+}
+.content2{
+    display: none;
+    list-style: none;
+}
+.appleLogo{
+    width:40%;
+    height: 30vh;
+}
+.titleApple{
+    text-align: center;
+}
+.aboutApple{
+    text-align: center;
+}
+.content3{
+    list-style: none;
+}
+.googleLogo{
+    width:40%;
+    height: 30vh;
+}
+.titleGoogle{
+    text-align: center;
+}
+.aboutGoogle{
+    text-align: center;
+}
